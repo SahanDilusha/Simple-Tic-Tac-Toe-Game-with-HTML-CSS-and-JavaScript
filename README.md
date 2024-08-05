@@ -4,7 +4,7 @@
 
 A simple Tic Tac Toe game built using HTML, CSS, and JavaScript. This game allows two players to play Tic Tac Toe in the browser.
 
-[!Demo](https://github.com/SahanDilusha/Simple-Tic-Tac-Toe-Game-with-HTML-CSS-and-JavaScript/blob/dc51935a3e18c80d6239405f5da5523584a97951/Screenshot.png)
+![Demo](https://github.com/SahanDilusha/Simple-Tic-Tac-Toe-Game-with-HTML-CSS-and-JavaScript/blob/dc51935a3e18c80d6239405f5da5523584a97951/Screenshot.png)
 
 ## Features
 
