@@ -4,12 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="app_icon.png" type="image/x-icon">
     <title>Simple Tic Tac Toe Game with HTML CSS and JavaScript</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 class="title">Tic Tac Toe Game</h1>
+
+    <h1 class="title"><img src="app_icon.png" class="app_icon" alt="app_icon.png" />Tic Tac Toe Game</h1>
+
+    <div class="main">
+        <div data-cell="0" class="cell"></div>
+        <div data-cell="1" class="cell"></div>
+        <div data-cell="2" class="cell"></div>
+        <div data-cell="3" class="cell"></div>
+        <div data-cell="4" class="cell"></div>
+        <div data-cell="5" class="cell"></div>
+        <div data-cell="6" class="cell"></div>
+        <div data-cell="7" class="cell"></div>
+        <div data-cell="8" class="cell"></div>
+    </div>
+
+    <h1 class="status-game"></h1>
+    <button class="restart-game">Restart</button>
 
     <script src="scrtp.js"></script>
 </body>

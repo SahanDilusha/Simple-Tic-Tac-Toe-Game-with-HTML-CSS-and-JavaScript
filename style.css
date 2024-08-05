@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
 
 body {
     padding: 0;
@@ -9,6 +15,7 @@ body {
     align-items: center;
     box-sizing: border-box;
     background-color: rgb(45, 45, 45);
+    flex-direction: column;
 }
 
 .title {
@@ -16,5 +23,46 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    color: #fff;
+}
+
+.app_icon {
+    width: 80px;
+    height: auto;
+    padding: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150;
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.restart-game {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #97C0BF;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    font-size: 1rem;
+    transition-duration: 0.5s;
+}
+
+.restart-game:hover {
+    background-color: #036767;
     color: #fff;
 }
